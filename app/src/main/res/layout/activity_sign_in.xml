@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn">
+    tools:context=".SignIn"
+    android:screenOrientation="locked">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -45,8 +46,15 @@
                 android:layout_height="65dp"
                 android:layout_weight="1"
                 android:background="@color/design_default_color_background"
-                android:padding="15dp"
+                android:padding="20dp"
                 app:srcCompat="@drawable/pchel" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="#E2E2E2" />
 
             <EditText
                 android:id="@+id/editText"
@@ -72,8 +80,15 @@
                 android:layout_height="65dp"
                 android:layout_weight="1"
                 android:background="@color/design_default_color_background"
-                android:padding="15dp"
+                android:padding="20dp"
                 app:srcCompat="@drawable/zamok" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="#E2E2E2" />
 
             <EditText
                 android:id="@+id/editText3"
